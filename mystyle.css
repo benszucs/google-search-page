@@ -1,0 +1,264 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* my code */
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    background-color: #fafafa;
+}
+
+header img {
+    height: 50px;
+    margin: 20px 20px 0px 20px;
+}
+
+.header-top {
+    list-style: none;
+    float: left;
+    position: relative;
+}
+
+.button {
+    height: 40px;
+    width: 80px;
+    background-color: #4286f4;
+    color: White;
+    margin: 20px 20px;
+    float: right;
+}
+    
+.right {
+    list-style: none;
+    display: inline;
+}
+
+.img-app {
+    margin-left: 325px;
+}
+
+.search-bar {
+    margin-top: 20px;
+    height: 28px;
+    width: 600px;
+    background: White url(mag-glass.png) right no-repeat;
+}
+
+.buttons a {
+    color: Grey;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 15px 15px;
+    font-size: 14px;
+}
+
+.nav {
+    border-bottom: 0.5px solid #A9A9A9;
+    background-color: #fafafa;
+}
+
+.all {
+    margin-left: 165px;
+    border-bottom: 2px solid #4286f4;
+}
+
+.settings {
+    margin-left: 60px;
+}
+
+.search-results {
+    color: Grey;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    margin-left: 175px;
+    margin-top: 15px;
+}
+
+.wrapper {
+    margin-left: 175px;
+    margin-top: 20px;
+    width: 650px;
+}
+
+.link {
+    padding: 5px 3px;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    color: #1a0dab;
+}
+
+.url {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: normal;
+    color: #006621;
+    padding-bottom: 3px;
+}
+
+.description {
+    line-height: 18px;
+    color: #545454;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.search {
+    margin-top: 20px;
+}
+
+.search-title {
+    margin-top: 40px;
+    color: #222;
+    font-size: 18px;
+}
+
+.search-list {
+    list-style: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.search-list li {
+    padding: 5px;
+    color: #1a0dab;
+}
+
+.search-list2 {
+    margin-left: 10px;
+}
+
+.gooogle {
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    width: 100%;
+    height: 80px;
+    background-color: #fafafa;
+    border-top: 0.5px solid #A9A9A9;
+}
+
+.location {
+    margin-top: 20px;
+    margin-left: 175px;
+    color: Grey;
+
+}
+
+.help li {
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.help {
+    margin-top: 30px;
+    margin-left: 175px;
+    color: Grey;
+    margin-bottom: 20px;
+}
